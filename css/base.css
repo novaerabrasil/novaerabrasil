@@ -1,0 +1,344 @@
+
+@import url('https://fonts.googleapis.com/css?family=Creepster');
+
+
+/* ==================================================
+   Table of Content
+================================================== 
+ 
+	1. Navigation Bar
+    2. Main Heading
+    3. Timer
+    4. Subscribe Form
+    5. Footer
+
+    
+==================================================
+   1. Navigation Bar
+================================================== */
+
+.logos{
+    width: 14% !important;
+}
+
+.logoB{
+    width: 30% !important;
+}
+
+.logoF {
+    text-align: center;
+    width: 11%;
+}
+.container-novaera{
+    background: #297f28c2;
+}
+
+.color-red{
+    color: #b80b11 !important;
+    font-family: 'Creepster', cursive;
+
+}
+
+.color-red strong{
+    color: #b80b11;
+    font-family: 'Creepster', cursive;
+
+}
+.bg-yellow{
+    background: #cacd01c7;
+
+}
+
+.cima {
+    background: url(../img/hsk.gif) repeat-x;
+    -webkit-animation: arrows 1s infinite;
+    animation: arrows 1s infinite;
+    background-size: contain;
+    transform: rotateX(180deg);
+    height: 60px;
+}
+.baixo {
+    background: url(../img/hsk.gif) repeat-x;
+    -webkit-animation: arrows 1s infinite;
+    animation: arrows 1s infinite;
+    background-size: contain;
+    height: 60px;
+}
+
+.titulo{
+    font-family: 'Creepster', cursive;
+    color: #b80b11 !important;
+    font-size: 56px;
+}
+
+.sub-titulo{
+    font-family: 'Creepster', cursive !important;
+    color: #b80b11 !important;
+    font-size: 38px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.rodape{
+    font-family: 'Creepster', cursive !important;
+    color: #b80b11 !important;
+    font-size: 18px;
+}
+.navbar{
+	background: transparent !important;
+	border: 0px;
+	margin: 0px;
+	color: white !important;
+	margin-right: 50px;
+	margin-left: 50px;
+    font-family: 'Raleway', sans-serif;
+
+}
+.navbar-nav a{
+	color: white !important;
+	font-size: 18px;
+}
+.navbar-nav a:hover{
+	background: #2c5ba1 !important;
+}
+.navbar-inverse .navbar-toggle{
+    border-color: #20457c!important;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color: #20457c;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+    background-color: #2c5ba1;
+}
+.logo{
+	color: white !important;
+	font-size: 30px;
+	font-family: 'Roboto Slab', serif;
+
+}
+.logo:hover{
+	color: white;
+}
+@media all and (max-width: 768px) {
+   .navbar{
+        margin-right: 0px;
+        margin-left: 0px;
+   } 
+    .navbar{
+        background: #20457c !important;
+    }
+    .navbar-nav a:hover{
+        background-color: #2c5ba1 !important;
+        border: none;
+        margin-bottom: 0px;
+    }
+}
+/* ==================================================
+   2. Main Heading
+================================================== */
+.main_heading{
+	text-align: center;
+	margin-top: 120px;
+    font-family: 'Raleway', sans-serif;
+	color: white;
+}
+.sub_heading{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+	color: white;
+    margin-top: 10px;
+}
+@media all and (max-width: 480px) {
+    .main_heading{
+        font-size: 32px;
+        margin-top: 100px;
+    }
+    .sub_heading{
+        font-size: 18px;
+        margin-top: 5px;
+    }
+}
+/* ==================================================
+   3. Timer
+================================================== */
+.timer{
+	margin-top: 50px;
+	color: white;
+	font-size: 50px;
+	line-height: 50px;
+	text-align: center;
+    font-family: 'Slabo 27px', serif;
+}
+.smalltext{
+	font-size: 18px; 
+    font-weight: lighter;
+    line-height: 18px;
+    font-family: 'Roboto Slab', serif;
+}
+.box{
+	border-left: 3px solid #b80b11;
+}
+.box1{
+	border-left: 0px;
+}
+@media all and (max-width: 480px) {
+    .timer{
+        font-size: 36px;
+        line-height: 45px;
+        font-weight: bold;
+    }
+    .smalltext{
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: lighter;
+    }
+    .box{
+	   border-left: 2px solid white;
+    }
+    .box1{
+	   border-left: 0px;
+    }
+}
+
+/* ==================================================
+   4. Subscribe Form
+================================================== */
+.subscribe{
+    text-align: center;
+    color: snow;
+    margin-top: 80px;
+    font-family: 'Raleway', sans-serif;
+}
+.subscribe_form{
+	text-align: center;
+	margin-top:20px
+}
+
+.subscribe_form .email{
+	height: 50px;
+	width: 270px;
+	opacity: 0.7;
+	border: 0px;
+	padding-left: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.subscribe_form .submit{
+	height: 50px;
+	width: 130px;
+	margin-left: -4px;
+	background: #2c5ba1;
+	border: 0px;
+	color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.subscribe_form .submit:hover{
+    background-color: #20457c;
+}
+.msg{
+    width: 400px;
+    height: 50px;
+}
+@media all and (max-width: 480px) {
+    .subscribe_form .email{
+        width: 200px;
+    }
+    .subscribe_form .submit{
+        width: 100px;
+    }
+    .subscribe{
+        font-size: 16px;
+        margin-top: 60px;
+    }
+    .msg{
+        width: 300px;
+        height: 35px;
+        line-height: 5px;
+    }
+}
+/* ==================================================
+   5. Footer
+================================================== */
+.footer{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+.text{
+    text-align: center;
+    margin-left: 35px;
+    font-family: 'Raleway', sans-serif;
+}
+.text a{
+    color: floralwhite;;
+}
+.socialmedia ul{
+    margin: 10px 0 20px 0;
+}
+ .socialmedia ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 10px;
+}
+.socialmedia ul li a{
+    font-size: 36px;
+    color: #FFF;
+}
+.socialmedia ul li a:hover{
+    color: #2c5ba1;
+}
+
+
+
+@media (max-width: 575.98px) { 
+    
+    
+    }
+    @media (min-width: 576px) and (max-width: 767.98px) { 
+    
+    
+    }
+    @media (min-width: 768px) and (max-width: 991.98px) { 
+    
+    }
+    
+    @media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+    
+    }
+    
+    @media (min-width: 1200px) and (max-width: 1366.98px) { 
+    
+        .main_heading {
+            text-align: center;
+            margin-top: 50px;
+            font-family: 'Raleway', sans-serif;
+            color: white;
+        }
+
+        .titulo {
+            font-family: 'Creepster', cursive;
+            color: #b80b11 !important;
+            font-size: 36px;
+        }
+
+        .sub-titulo {
+            font-family: 'Creepster', cursive !important;
+            color: #b80b11 !important;
+            font-size: 28px;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .bg-yellow {
+            background: #cacd01c7;
+            margin-top: 90px;
+            width: 68%;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 31px;
+            color: white;
+        }
+    }
+    
